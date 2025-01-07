@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lekisha Saxena's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', cursive;
+            background: linear-gradient(135deg, #00BFFF, #87CEFA, #4682B4);
+            color: #333;
+            line-height: 1.8;
+        }
+
+        header {
+            background: #1E90FF;
+            color: #fff;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        header nav ul li a:hover {
+            color: #FFD700;
+        }
+
+        main {
+            padding: 0;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100vh;
+            padding: 20px;
+            flex-direction: column;
+            position: relative;
+        }
+
+        section h1 {
+            position: absolute;
+            top: 5%;
+            width: 100%;
+            font-size: 3em;
+            color: #FFD700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        section:nth-child(odd) {
+            background: rgba(135, 206, 250, 0.8);
+        }
+
+        section:nth-child(even) {
+            background: rgba(70, 130, 180, 0.8);
+        }
+
+        section p {
+            font-size: 1.5em;
+        }
+
+        .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .box {
+            background: #1E90FF;
+            color: #fff;
+            border: 3px dashed #FFD700;
+            padding: 20px;
+            border-radius: 20px;
+            width: 300px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            font-size: 1.3em;
+            text-align: center;
+        }
+
+        footer {
+            background: #1E90FF;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Home</h1>
+            <p>Welcome to my portfolio!</p>
+            <p>Hello! I am Lekisha Saxena.</p>
+        </section>
+
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Namaste! I am Lekisha Saxena, a BCA student studying in TCET. I'm a beginner in the world of technology as I come from a commerce background and am looking forward to exploring the world of tech. I'm an extrovert good at communicating and connecting with people easily. I'm into creative stuff, and I believe things can be expressed through many more mediums apart from words. I'm looking forward and will try my best to explore the world of tech, especially with good teachers like Sujeet Sir :)</p>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            <p>The only projects I've worked on are the drawings I made, but I look forward to making a project through Python.</p>
+        </section>
+
+        <section id="education">
+            <h1>Education</h1>
+            <div class="box-container">
+                <div class="box">
+                    <p><strong>Current Program:</strong> BCA (Computer Applications) through TCET</p>
+                </div>
+                <div class="box">
+                    <p><strong>Programming Languages:</strong> Python, C, SQL</p>
+                </div>
+                <div class="box">
+                    <p><strong>Areas of Interest:</strong> Still exploring the world of tech.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h1>Interests & Hobbies</h1>
+            <div class="box-container">
+                <div class="box">
+                    <p>Drawing</p>
+                </div>
+                <div class="box">
+                    <p>12 years of Bharatnatyam</p>
+                </div>
+                <div class="box">
+                    <p>Editing images creatively</p>
+                </div>
+                <div class="box">
+                    <p>Digital art</p>
+                </div>
+                <div class="box">
+                    <p>Producing music</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1>Contact</h1>
+            <p><strong>Email:</strong> Somebody@gmail.com</p>
+            <p><strong>Phone:</strong> 1234567891</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lekisha Saxena</p>
+    </footer>
+
+</body>
+</html>
+
